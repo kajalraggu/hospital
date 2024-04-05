@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+body{
+    background-color: #50859536;
+}
+.patient-img{
+    padding-right: 2em ;
+    border-right: #1d3c4586 2px solid ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.patient-card{
+    display: flex;
+    background-color: #fff1e17c;
+    margin: 1em 7em;
+    padding: 2em;
+    border-radius: 0.5em;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    transition: transform 0.2s;
+}
+.patient-img img{
+    width: 10em;
+    border-radius: 0.5em;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+.patient-img span{
+    text-align: center;
+    color: rgb(21, 21, 21);
+}
+
+.patient-details{
+    /* background-color: rebeccapurple; */
+    width: 100%;
+    margin-left: 2em;
+}
+#patient-name{
+    font-size: 1.8em;
+    font-family: "Dancing Script", cursive;
+}
+
+.no-data{
+    margin: 12px;
+    font-size: 8em;
+    font-family: "Dancing Script", cursive;
+    color: #b15115b6;
+}
+.patient-details b,.patient-details h4{
+    color: #b15115b6;
+}
+.patient-details h2{
+    display: flex;
+    justify-content: space-between;
+}
+.patient-details a{
+    font-size: 0.7em;
+    text-decoration: none;
+    margin: 0.2em;
+    padding: 0.3em;
+    /* background-color: red; */
+    color: white;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+
+
+
+.patient-details a:hover{
+    background-color: white !important;
+    /* outline: #b15115b6 2px solid; */
+    color: #b15115b6;
+}
+.patient-card:hover{
+    outline: #ff6302b6 2px solid;
+    transform: scale(1.01);
+}
+
+.create a:hover{
+    color: white;
+    border-radius: 0.1px;
+    justify-content: center;
+}
